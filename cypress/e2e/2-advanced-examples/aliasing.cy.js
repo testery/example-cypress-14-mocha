@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 
-context('Aliasing', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/aliasing')
   })
@@ -36,4 +35,4 @@ context('Aliasing', () => {
     // https://on.cypress.io/wait
     cy.wait('@getComment').its('response.statusCode').should('eq', 200)
   })
-})
+

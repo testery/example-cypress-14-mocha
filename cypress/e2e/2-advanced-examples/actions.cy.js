@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 
-context('Actions', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/actions')
   })
@@ -318,4 +317,4 @@ context('Actions', () => {
     // control the duration of the scroll (in ms)
     cy.get('#scrollable-both').scrollTo('center', { duration: 2000 })
   })
-})
+
