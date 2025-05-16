@@ -1,0 +1,14 @@
+{
+  "name": "example-cypress-14",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress test"
+  },
+  "author": "wgunn",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.3.3"
+  }
+}
